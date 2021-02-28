@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>연습문제 15-2</title>
+</head>
+<body>
+	<script>
+		function Compare(x,y){
+			if(x==y){
+				alert("같습니다");
+			}
+			else if(x>y){
+				alert(x+"(이)가"+y+"보다 큽니다.");
+			}
+			else{
+				alert(y+"(이)가"+x+"보다 큽니다");
+			}
+		}
+
+		var num1=prompt("비교할 첫 번째 숫자:","");
+		var num2=prompt("비교할 두 번째 숫자:","");
+
+		Compare(num1,num2);
+	</script>
+</body>
+</html>
